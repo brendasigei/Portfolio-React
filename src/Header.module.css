@@ -1,0 +1,44 @@
+.header {
+  border-bottom: 1px solid var(--color-border);
+  background: #fff;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 4rem;
+}
+
+.brand {
+  color: #292b27;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.15rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.link {
+  color: #4c514a;
+  text-decoration: none;
+}
+
+.active {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+
+.addButton {
+  padding: 0.45rem 0.75rem;
+  color: #fff;
+  background: var(--color-accent);
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius);
+  text-decoration: none;
+}

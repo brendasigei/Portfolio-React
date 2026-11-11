@@ -1,0 +1,14 @@
+.detail {
+  max-width: 800px;
+}
+
+.image {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.category {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-muted);
+}
